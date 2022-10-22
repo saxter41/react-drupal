@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-drupal/static/css/main.8fd6b206.css",
-    "main.js": "/react-drupal/static/js/main.3c27348a.js",
+    "main.js": "/react-drupal/static/js/main.e640edbd.js",
     "static/media/logo_2.svg": "/react-drupal/static/media/logo_2.93e9dd2ff84b58714fc161e41bf098fd.svg",
     "index.html": "/react-drupal/index.html",
     "main.8fd6b206.css.map": "/react-drupal/static/css/main.8fd6b206.css.map",
-    "main.3c27348a.js.map": "/react-drupal/static/js/main.3c27348a.js.map"
+    "main.e640edbd.js.map": "/react-drupal/static/js/main.e640edbd.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd6b206.css",
-    "static/js/main.3c27348a.js"
+    "static/js/main.e640edbd.js"
   ]
 }
