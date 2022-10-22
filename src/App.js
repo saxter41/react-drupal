@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
+import { Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
 import ParticlesBg from "particles-bg";
 import './App.css';
 import Node from './components/Node';
@@ -20,11 +20,9 @@ function App() {
         </div>
         <div className="App-content">
           <HashRouter>
-            <Routes>
             <Route exact path="/" component={props => <Node {...props} />}></Route>
             <Route path="/node-list" component={props => <NodeListTeaser {...props} />}></Route>
             <Route path="/node/:id" component={props => <Node {...props} />}></Route>
-            </Routes>
           </HashRouter>
         </div>
       </div>
