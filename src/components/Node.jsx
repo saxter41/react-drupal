@@ -27,7 +27,7 @@ const Node = (props) => {
     var url = '';
     const API_ROOT = 'https://dev-saxter.pantheonsite.io/jsonapi/';
     if ( props.match.path === '/' ) {
-      url = `${API_ROOT}node/article/38509feb-a396-401e-9bf4-e282947f4046?include=field_image&fields[file--file]=uri,url`;
+      url = `${API_ROOT}node/article/4070928a-a9a8-4e75-9886-96c80a914a95?include=field_image&fields[file--file]=uri,url`;
     } else {
       url = `${API_ROOT}node/article/${props.match.params.id}?include=field_image&fields[file--file]=uri,url`;
     }
@@ -59,7 +59,7 @@ const Node = (props) => {
         </div>
         <div className="App-img">
           <div className="App-node-link">
-            <a href={`/node/${content.data.id}`} >
+            <a href={`/react-drupal/node/${content.data.id}`} >
               <img className="App-node-img" src={`https://dev-saxter.pantheonsite.io${content.included[0].attributes.uri.url}`} 
               alt=""/>
             </a>

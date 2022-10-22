@@ -18,7 +18,7 @@ function isValidData(data) {
 
 const NodeItem = ({id, drupal_internal__nid, title}) => (
   <div className="App-node-list">
-    <a href={`/node/${id}`}>{title}</a>
+    <a href={`/react-drupal/node/${id}`}>{title}</a>
   </div>
 );
 

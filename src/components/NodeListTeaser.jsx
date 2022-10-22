@@ -19,7 +19,7 @@ function isValidData(data) {
 const NodeItem = ({id, title, url}) => (
   <div className="App-node-list-teaser">
       <div className="App-list-teaser-img">
-        <a href={`/node/${id}`}>
+        <a href={`/react-drupal/node/${id}`}>
             <img className="App-node-list-teaser-img" src={`https://dev-saxter.pantheonsite.io/${url}`} alt=""/>
         </a>
       </div>

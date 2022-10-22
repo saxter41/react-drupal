@@ -8,7 +8,7 @@ const AppHeader = () => {
         <h1 className="App-title">
           React
         </h1>
-        <a href="/">
+        <a href="/react-drupal/">
           <img src={logo2} className="App-logo" alt="logo" />
           </a>
         <h1 className="App-title">
