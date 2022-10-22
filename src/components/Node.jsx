@@ -59,7 +59,7 @@ const Node = (props) => {
         </div>
         <div className="App-img">
           <div className="App-node-link">
-            <a href={`/react-drupal/node/${content.data.id}`} >
+            <a href={`/node/${content.data.id}`} >
               <img className="App-node-img" src={`https://dev-saxter.pantheonsite.io${content.included[0].attributes.uri.url}`} 
               alt=""/>
             </a>

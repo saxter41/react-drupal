@@ -17,7 +17,7 @@ function isValidData(data) {
 
 const NodeItem = ({drupal_internal__nid, title}) => (
   <div>
-    <a href={`/react-drupal/node/${drupal_internal__nid}`}>{title}</a>
+    <a href={`/node/${drupal_internal__nid}`}>{title}</a>
   </div>
 );
 
