@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, BrowserRouter} from 'react-router-dom';
-import ParticlesBg from "particles-bg";
+//import ParticlesBg from "particles-bg";
 import './App.css';
 import Node from './components/Node';
 import NodeList from './components/NodeList';
